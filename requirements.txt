@@ -3,3 +3,4 @@ langchainhub==0.1.13
 newspaper3k==0.2.8
 Requests==2.31.0
 streamlit==1.25.0
+openai
