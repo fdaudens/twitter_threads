@@ -21,7 +21,7 @@ if lang_choice == "English":
     - **Newspaper3k** for online article scraping.
     Enter the URL of an article along with other parameters, then click 'Run' to get a summarized set of tweets.
     """)
-    api_key = st.text_input("Your OpenAI API key", type="password")
+    api_key = st.text_input("Your [OpenAI API key](https://platform.openai.com/account/api-keys)", type="password")
     article_url = st.text_input("Article URL")
     language = st.text_input("Language")
     target_audience = st.text_input("Target Audience")
@@ -38,7 +38,7 @@ else:
     - **Newspaper3k** pour l'extraction d'articles en ligne.
     Entrez l'URL d'un article et les autres paramètres, puis cliquez sur 'Exécuter' pour obtenir un résumé sous forme de tweets.
     """)
-    api_key = st.text_input("Votre clé d'API OpenAI API", type="password")
+    api_key = st.text_input("Votre [clé d'API OpenAI API](https://platform.openai.com/account/api-keys)", type="password")
     article_url = st.text_input("L'URL de l'article")
     language = st.text_input("Langue")
     target_audience = st.text_input("Public cible")
