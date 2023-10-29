@@ -23,9 +23,9 @@ if lang_choice == "English":
     """)
     api_key = st.text_input("Your [OpenAI API key](https://platform.openai.com/account/api-keys)", type="password")
     article_url = st.text_input("Article URL")
-    language = st.text_input("Language")
+    language = st.text_input("Language of tweets")
     target_audience = st.text_input("Target Audience")
-    word_count = st.slider("Word Count", min_value=10, max_value=100, value=30)
+    word_count = st.slider("Number of words per tweet", min_value=10, max_value=100, value=30)
     number_of_tweets = st.slider("Number of Tweets", min_value=1, max_value=10, value=3)
 
 else:
@@ -40,9 +40,9 @@ else:
     """)
     api_key = st.text_input("Votre [clé d'API OpenAI API](https://platform.openai.com/account/api-keys)", type="password")
     article_url = st.text_input("L'URL de l'article")
-    language = st.text_input("Langue")
+    language = st.text_input("Langue des tweets")
     target_audience = st.text_input("Public cible")
-    word_count = st.slider("Nombre de mots", min_value=10, max_value=100, value=30)
+    word_count = st.slider("Nombre de mots par tweet", min_value=10, max_value=100, value=30)
     number_of_tweets = st.slider("Nombre de tweets", min_value=1, max_value=10, value=3)
 
 if st.button(button_text):
