@@ -4,6 +4,8 @@
 
 This project is designed to generate summarized tweets from articles. It is aimed at journalists and anyone interested in summarizing long articles into a concise set of tweets. The application supports both English and French languages.
 
+Try it at https://twitter-threads-generator.streamlit.app/
+
 ## Technologies Used
 
 - **Streamlit**: For creating the user interface.
