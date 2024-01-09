@@ -1,5 +1,4 @@
 import streamlit as st
-from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
 from langchain import hub
 import requests
@@ -61,7 +60,7 @@ if st.button(button_text):
             prompt = hub.pull("flflo/summarization")
 
             # LLM
-            model = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0, openai_api_key=api_key)
+            model = ChatOpenAI(model_name="gpt-4-1106-preview", temperature=0, openai_api_key=api_key)
 
             # Chain
             runnable = prompt | model
