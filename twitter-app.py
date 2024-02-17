@@ -7,7 +7,7 @@ import os
 
 lang_choice = st.radio("", ["English", "Français"],horizontal=True)
 button_text = "Run" if lang_choice == "English" else "Exécuter"
-title_text = "AI-assisted Twitter Thread Generator 📰✨🧵" if lang_choice == "English" else "Générateur de fils Twitter assisté par IA 📰✨🧵"
+title_text = "AI-assisted Twitter Thread Generator 📰✨🧵" if lang_choice == "English" else "Générateur de fils Twitter assisté par IA 📰✨🧵 "
 st.title(title_text)
 
 if lang_choice == "English":
